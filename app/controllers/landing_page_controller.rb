@@ -32,6 +32,10 @@ class LandingPageController < ApplicationController
 
   end 
 
+  def aman_dua
+
+  end 
+
 
   def send_email params
 
