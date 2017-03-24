@@ -1,20 +1,20 @@
 
 body {
-/*    font-family: lato;
-    font-size: 24px; */
-    line-height: 1.5;
+    font-family: lato;
+/*    font-size: 24px;
+*/    line-height: 1.5;
     color: #58595b;
     padding-top: 30px;
 }
 
 @font-face {
   font-family: "lato";
-  src: url('./landing_page/fonts/Lato-Regular.ttf') format("truetype");
+  src: url('/landing_page/fonts/Lato-Regular.ttf') format("truetype");
 }
 
 @font-face {
   font-family: "chicken";
-  src: url('./landing_page/fonts/ClickerScript-Regular.ttf') format("truetype");
+  src: url('/landing_page/fonts/ClickerScript-Regular.ttf') format("truetype");
 }
 .mt_font{
       font-family: chicken;
