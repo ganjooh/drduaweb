@@ -36,6 +36,10 @@ class LandingPageController < ApplicationController
 
   end 
 
+  def faq_section
+
+  end 
+
 
   def send_email params
 
