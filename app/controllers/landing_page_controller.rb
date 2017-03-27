@@ -40,6 +40,10 @@ class LandingPageController < ApplicationController
 
   end 
 
+  def gallery
+
+  end 
+
 
   def send_email params
 

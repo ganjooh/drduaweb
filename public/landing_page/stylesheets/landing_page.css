@@ -81,7 +81,10 @@ body {
 .tagline h1{
   font-size: 55px !important;
 }
-
+.tagline h1::first-letter {
+ font-weight: bold;
+ color: #34578e;
+}
 .Hipblog {
   padding-top: 50px;
 }
