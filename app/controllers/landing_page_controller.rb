@@ -52,7 +52,8 @@ class LandingPageController < ApplicationController
 	   		patient_name = params[:user_name]
 		   	patient_email = params[:user_email]
 		   	patient_message = params[:user_message]
-		   	email_body = "Name of Patient : " +patient_name.to_s + "\n" + "Patient Emails : " + patient_email.to_s + "\n" + "Patient Message : "+patient_message.to_s
+        patient_no  = params[:user_phone]
+		   	email_body = "Name of Patient : " + patient_name.to_s + "\n" + "Patient Emails : " + patient_email.to_s + "\n"+ "Patient no : "+ patient_no.to_s + "\n" + "Patient Message : " +patient_message.to_s
 		   	gmail = Gmail.connect( "cjdenquiry@gmail.com", "buzz4health" )
 		   	email = gmail.compose do
 
