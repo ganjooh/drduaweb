@@ -1,0 +1,2 @@
+#we have to first start the postsql server in local then  we can run it locally command for the same for mac
+ brew services start postgresql
